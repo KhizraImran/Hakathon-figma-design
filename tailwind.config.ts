@@ -12,6 +12,14 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily:{
+        montserrat:['Montserrat','sans-serif'],
+      },
+      backgroundImage:{
+        "gradient-radical": "radical-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+        "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
     },
   },
   plugins: [],
