@@ -1,19 +1,26 @@
-import EditorsPics from "@/components/editors";
-import FeauresPosts from "@/components/feature-post";
-import Footer from "@/components/footer";
-import Header from "@/components/header";
-import Hero from "@/components/hero";
-import FeatureProducts from "@/components/product-feature";
+import BlueHeader from "./components/blue-header";
+import Carausel from "./components/caraousel";
+import Editors from "./components/editorspick";
+import Footer from "./components/footer";
+import GreenDiv from "./components/green-div";
+import Lastdiv from "./components/lastdiv";
+import Navbar from "./components/navbar";
+import ProductCard from "./components/products-card";
+import Whitediv from "./components/white-dic";
 
-export default function Home() {
-  return (
-    <>
-      <Header />
-      <Hero />
-      <EditorsPics />
-      <FeatureProducts />
-      <FeauresPosts />
-      <Footer />
-    </>
-  );
+export default function Home(){
+  return(
+    <div>
+      <BlueHeader/>
+      <Navbar/>
+      <Carausel/>
+      <Editors/>
+      <ProductCard/>
+      <GreenDiv/>
+      <Whitediv/>
+      <Lastdiv/>
+      <Footer/>
+           
+    </div>
+  )
 }
