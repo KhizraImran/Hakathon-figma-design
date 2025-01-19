@@ -25,7 +25,7 @@ import pic20 from "@/images/product-cover-5 (19).png";
 import CardText from "../components/cards-text";
 import Footer from "../components/footer";
 
-export default function () {
+export default function ShopPage () {
   return (
     <div>
       <GreenHeader />
@@ -178,4 +178,4 @@ export default function () {
     </div>
   );
 }
-ContactPage.displayName = "ShopPage";
+
