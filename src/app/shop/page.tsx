@@ -8,7 +8,6 @@ import cat3 from "@/images/card-item (2).png";
 import cat4 from "@/images/card-item (3).png";
 import cat5 from "@/images/card-item (4).png";
 import drop from "@/images/Vector (14).png";
-import frame from "@/images/Frame 31.png";
 import clients from "@/images/desktop-clients-1.png";
 import pic9 from "@/images/product-cover-5 (8).png";
 import pic10 from "@/images/product-cover-5 (9).png";
@@ -179,3 +178,4 @@ export default function () {
     </div>
   );
 }
+ContactPage.displayName = "ShopPage";
