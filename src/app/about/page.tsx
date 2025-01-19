@@ -1,7 +1,6 @@
 import Navbar from "../components/navbar2";
 import Image from "next/image";
 import girl from "@/images/hero-2-bg-shape-cover.png";
-import bg from "@/images/media bg-cover.png";
 import facebookIcon from "@/images/facebook.png";
 import instagramIcon from "@/images/ant-design_instagram-outlined.png";
 import twittericon from "@/images/ant-design_twitter-outlined.png";
